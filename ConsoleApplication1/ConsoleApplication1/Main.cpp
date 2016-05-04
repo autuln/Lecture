@@ -9,6 +9,12 @@ int minus(int _nInputA, int _nInputB);
 
 double dvide(double _fInputA, double _fInputB);
 
+void c_jop_workspace();
+
+void c_jop_workspace()
+{
+	printf("%s\n", "저는 c_job_workspace 입니다.")
+}
 
 int main()
 {
