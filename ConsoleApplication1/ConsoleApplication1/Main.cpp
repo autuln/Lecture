@@ -11,6 +11,8 @@ double dvide(double _fInputA, double _fInputB);
 
 void c_jop_workspace();
 
+void c_work_job_workspace();
+
 void c_jop_workspace()
 {
 	printf("%s\n", "저는 c_job_workspace 입니다.")
@@ -20,6 +22,11 @@ int main()
 {
 
 	std::cout << "hellow world" << std::endl;
+}
+
+void c_work_job_workspace()
+{
+	printf("%s\n", "저는 c_work_job_workspace 입니다.");
 }
 
 void c_workspace()
