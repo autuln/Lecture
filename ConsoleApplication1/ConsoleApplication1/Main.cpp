@@ -6,6 +6,7 @@ int multiple(int _nInputA, int _nInputB);
 
 int minus(int _nInputA, int _nInputB);
 
+double dvide(double _fInputA, double _fInputB);
 
 
 int main()
@@ -27,4 +28,9 @@ int multiple(int _nInputA, int _nInputB)
 int minus(int _nInputA, int _nInputB)
 {
 	return _nInputA - _nInputB;
+}
+
+double dvide(double _fInputA, double _fInputB)
+{
+	return _fInputA / _fInputB;
 }
