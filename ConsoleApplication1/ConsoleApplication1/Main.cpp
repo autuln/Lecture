@@ -20,8 +20,11 @@ void c_jop_workspace()
 
 int main()
 {
+	int result;
 
 	std::cout << "hellow world" << std::endl;
+
+	result = minus(2, 1);
 }
 
 void c_work_job_workspace()
