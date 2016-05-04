@@ -1,5 +1,6 @@
 #include <iostream>
 
+void c_workspace();
 int add(int _nInputA, int _nInputB);
 
 int multiple(int _nInputA, int _nInputB);
@@ -13,6 +14,11 @@ int main()
 {
 
 	std::cout << "hellow world" << std::endl;
+}
+
+void c_workspace()
+{
+	printf("%s\n", "저는 c_workspace 입니다.");
 }
 
 int add(int _nInputA, int _nInputB)
